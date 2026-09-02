@@ -40,9 +40,13 @@ void ledsON()
 void ledsOFF()
 {
   digitalWrite(LED1, LOW);
+  delay(1000);
   digitalWrite(LED2, LOW);
+  delay(2000);
   digitalWrite(LED3, LOW);
+  delay(3000);
   digitalWrite(LED4, LOW);
+  delay(3000);
 }
 
 
@@ -148,5 +152,5 @@ void loop()
     }
   }
 
-  delay(100);
+  delay(1000);
 }
