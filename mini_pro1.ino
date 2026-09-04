@@ -30,9 +30,13 @@ bool gateOpen = false;
 void ledsON()
 {
   digitalWrite(LED1, HIGH);
+  delay(500);
   digitalWrite(LED2, HIGH);
+  delay(1000);
   digitalWrite(LED3, HIGH);
+  delay(2000);
   digitalWrite(LED4, HIGH);
+  delay(4000);
 }
 
 
